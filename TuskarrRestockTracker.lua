@@ -405,7 +405,12 @@ function TuskarrRestockTracker:ChatCommand(input)
     command = command:lower()
 
     if command == L["config"]:lower() then
-        InterfaceOptionsFrame_OpenToCategory(private.optionsFrame)
+		if Settings then
+			Settings.OpenToCategory("Tuskarr Restock Tracker")
+		elseif InterfaceOptionsFrame_OpenToCategory then
+			InterfaceOptionsFrame_OpenToCategory("Tuskarr Restock Tracker")
+			InterfaceOptionsFrame_OpenToCategory("Tuskarr Restock Tracker")
+		end				
     elseif command == L["minimap"]:lower() then
         private.db.global.minimap_icon.hide = not private.db.global.minimap_icon.hide
         TuskarrRestockTracker:UpdateMinimapConfig()
