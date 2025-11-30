@@ -1,6 +1,6 @@
 ## Interface: 110205
 ## Title: Tuskarr Restock Tracker
-## Version: 11.0.0
+## Version: 11.0.1
 ## Notes: Helps with the weekly Iskaara Tuskarr fishing quests ("Catch and Release") by keeping track of what quests have been completed and what fish are required.
 ## Author: Amanoa
 ## SavedVariables: TuskarrRestockTrackerDB
