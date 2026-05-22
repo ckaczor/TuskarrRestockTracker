@@ -2,6 +2,7 @@
 ## Title: Tuskarr Restock Tracker
 ## Version: 12.0.0
 ## Notes: Helps with the weekly Iskaara Tuskarr fishing quests ("Catch and Release") by keeping track of what quests have been completed and what fish are required.
+## Notes-zhCN: 追踪伊斯卡拉海象人“捉放鱼”周常任务。
 ## Author: Amanoa
 ## SavedVariables: TuskarrRestockTrackerDB
 ## OptionalDeps: Ace3, AceEvent-3.0, LibQTip-1.0, LibStub, AceTimer-3.0, AceConsole-3.0
@@ -25,6 +26,7 @@ Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
 Locale\enUS.lua
 Locale\frFR.lua
 Locale\deDE.lua
+Locale\zhCN.lua
 
 Data.lua
 Sort.lua
